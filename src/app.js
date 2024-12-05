@@ -11,6 +11,7 @@ app.use(cors({
 }));//use method is used to implement middlewares.
 
 
+
 //Type of data we are accepting...
 app.use(express.json({limit:"16kb"}))
 app.use(express.urlencoded({extended:true,limit:"16kb"}))
@@ -20,6 +21,10 @@ app.use(express.static("public"))
 app.use(cookieParser())
 
 
+//import routes
 
+import {itemRouter} from "./routes/item.route.js";
+
+app.use("/item",itemRouter);
 
 export default app;
