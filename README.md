@@ -43,7 +43,7 @@ Welcome to the **Task Manager**, a simple yet effective application to keep trac
     ```
 4. Configure your environment variables in a `.env` file:
     ```env
-    PORT=5000
+    PORT=8000
     MONGO_URI=<your_mongo_db_connection_string>
     ```
 5. Start the server:
