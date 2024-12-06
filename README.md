@@ -1,7 +1,5 @@
 # Task Manager
 
-![Task Manager Banner](https://via.placeholder.com/1200x400?text=Task+Manager)
-
 Welcome to the **Task Manager**, a simple yet effective application to keep track of your daily tasks, manage deadlines, and boost your productivity. This project is designed with user-friendliness and simplicity in mind, making it a perfect solution for personal or small team task management.
 
 ---
