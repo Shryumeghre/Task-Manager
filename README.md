@@ -14,30 +14,13 @@ Welcome to the **Task Manager**, a simple yet effective application to keep trac
 - **Responsive Design:** Works seamlessly across devices.
 - **Local Storage Support:** Saves tasks directly in your browser.
 
----
-
-## 🚀 Live Demo
-
-[View Live Demo](#) (Add link to your deployed project)
-
----
+----
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express
 - **Database:** MongoDB (via MongoDB Atlas)
 - **Others:** Postman for API testing
-
----
-
-## 🖥️ Screenshots
-
-### Dashboard View
-![Dashboard Screenshot](https://via.placeholder.com/800x400?text=Dashboard)
-
-### Task Management
-![Task Management Screenshot](https://via.placeholder.com/800x400?text=Task+Management)
 
 ---
 
