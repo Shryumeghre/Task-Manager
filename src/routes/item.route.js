@@ -1,8 +1,14 @@
 import {Router} from 'express';
 import {upload} from "../middleware/multer.middleware.js";
-const itemRouter = Router();
+import {verifyJWT} from "../middleware/auth.middleware.js";
 
-import {createItem} from "../controller/item.controller.js";
+
+const itemRouter = Router();
+itemRouter.use(verifyJWT);
+
+
+
+import {createItem,updateItem,getAllItems,getItemByAssignedTo} from "../controller/item.controller.js";
 
 
 itemRouter.post("/create",
@@ -10,5 +16,16 @@ itemRouter.post("/create",
     createItem
 );
 
+itemRouter.post("/update", 
+    updateItem
+)
+
+itemRouter.get("/get-all-items",
+    getAllItems
+);
+
+itemRouter.get("/get-item-by-assignedto",
+    getItemByAssignedTo
+);
 
 export { itemRouter };
